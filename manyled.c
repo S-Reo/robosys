@@ -1,13 +1,18 @@
+/*
+ * copyright © 2021 S-Reo (https://github.com/S-Reo) All rights reserved
+ * */
+
 #include <linux/module.h> 
 #include <linux/fs.h>
 #include <linux/cdev.h>
 #include <linux/device.h>
 #include <linux/uaccess.h>
 #include <linux/io.h>
-MODULE_AUTHOR("Ryuichi Ueda");
+
+MODULE_AUTHOR("Reo Sato & Ryuichi Ueda");
 MODULE_DESCRIPTION("driver for Many LED control");
 MODULE_LICENSE("GPL");
-MODULE_VERSION("0.0.1");
+MODULE_VERSION("0.1");
 
 #define GPFSEL0 0
 

@@ -1,11 +1,14 @@
 # robosys
 ロボットシステム学において製作したデバイスドライバのリポジトリ
 
-
 ### ライセンス  
   GPL (v3.0)
 ### 著作者    
   [S-Reo](https://github.com/S-Reo) + [ryuichiueda](https://github.com/ryuichiueda)
+  
+## 機能
+echo から0~6の文字を出力するとその値ぶんだけLEDが光る
+
 ## 使用方法
 1. make
 2. sudo insmod manyled.ko
